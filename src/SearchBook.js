@@ -45,15 +45,7 @@ class SearchBook extends Component {
       this.clearQuery(query)
     }
   }
-/*const { books, onChangeShelf } = this.props;
-const { query, bookSearch } = this.state;
-const tempResults = bookSearch.map(r => {
-books.forEach(b => {
-  if(b.id === r.id)
-  r.shelf = b.shelf;
-})
-return r;
-})*/
+
 
   render() {
     const { onChangeShelf } = this.props
